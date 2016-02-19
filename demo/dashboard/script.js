@@ -4,7 +4,7 @@ angular.module('app')
 	function($scope, $timeout) {
 		$scope.gridsterOptions = {
 			margins: [20, 20],
-			columns: 4,
+			columns: 8,
 			draggable: {
 				handle: 'h3'
 			}
@@ -18,7 +18,8 @@ angular.module('app')
 					col: 0,
 					row: 0,
 					sizeY: 1,
-					sizeX: 1,
+					sizeX: 2,
+					ratio: 2,
 					name: "Widget 1"
 				}, {
 					col: 2,

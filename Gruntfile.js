@@ -102,7 +102,7 @@ module.exports = function(grunt) {
 		watch: {
 			dev: {
 				files: ['Gruntfile.js', 'karma.conf.js', 'ptor.conf.js', 'src/*', 'test/**/*.js'],
-				tasks: ['jsbeautifier', 'jshint', 'uglify', 'less', 'karma:unit:run'],
+				tasks: [ 'jshint', 'uglify', 'less', 'karma:unit:run'],
 				options: {
 					reload: true,
 					livereload: true,
